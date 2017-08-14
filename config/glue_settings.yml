@@ -1,0 +1,11 @@
+default: &default
+  bookshelf_document_created: 50
+
+production:
+  <<: *default
+
+test:
+  <<: *default
+
+development:
+  <<: *default

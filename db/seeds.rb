@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# class CreateStory < Neo4j::Migrations::Base
+#   def up
+#     add_constraint :Story, :uuid
+#   end
+
+#   def down
+#     drop_constraint :Story, :uuid
+#   end
+# end
